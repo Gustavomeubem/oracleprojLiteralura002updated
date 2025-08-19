@@ -2,6 +2,14 @@
 
 A comprehensive RESTful API for managing a book catalog, integrated with the Gutenberg Project API for ebook metadata.
 
+src/main/java/com/bookcatalog/
+├── controller/     # REST controllers
+├── service/        # Business logic and services
+├── repository/     # Data access layer
+├── model/          # Entity classes
+├── dto/           # Data transfer objects
+└── config/        # Configuration classes
+
 ## Features
 
 - **CRUD Operations**: Create, read, update, and delete books in the catalog
